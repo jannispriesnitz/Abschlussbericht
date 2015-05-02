@@ -1,0 +1,79 @@
+\documentclass[a4paper,12pt]{article}
+
+%----------------- PDF CONFIG ----------------- %
+\pdfinfo{    
+     /Title (Exposè) 
+     /Subject   (Exposè)    
+     /Author  (Jannis Priesnitz) 
+     /Keywords   (Stichwort1,Stichwort2)      
+} 
+
+
+
+
+%----------------- PAKETE INKLUDIEREN ----------------- %
+
+\usepackage{geometry} % Packet für Seitenrandabständex und Einstellung für Seitenränder
+\usepackage[ngerman]{babel} % deutsche Silbentrennung
+
+\usepackage{booktabs} %entzerrt die Tabellenzeilen und bietet verschieden dicke Unterteilungslinien
+\usepackage{longtable} % Tabellen können sich nicht über mehrere Seiten 
+\usepackage{graphicx} % kann LaTeX Grafiken einbinden
+\usepackage[utf8]{inputenc}  % Umlaute unter Linux
+
+\usepackage[T1]{fontenc} % Zeichenencoding
+\usepackage{lmodern} % typographische Qualität 
+\frenchspacing % Schaltet den zusätzlichen Zwischenraum ab
+\usepackage{fix-cm}
+\usepackage{hyperref} % verwandelt alle Kapitelüberschriften, Verweise aufs Literaturverzeichnis und andere Querverweise in PDF-Hyperlinks
+\usepackage{color}
+\usepackage{url}
+\usepackage{float} %force position
+\usepackage{caption, booktabs}
+\usepackage[nottoc]{tocbibind}
+
+
+
+% für Listings
+\usepackage{listings}
+\lstset{numbers=left, numberstyle=\tiny, numbersep=5pt, stepnumber=4, keywordstyle=\color{black}\bfseries\itshape, stringstyle=\ttfamily,showstringspaces=false,basicstyle=\footnotesize,captionpos=b}
+% Trick zum leichten einbingen des Logos in den Titel 
+\lstset{language=java}
+	\title{\includegraphics[width = 0.6\textwidth]{Abb/logo_fbi.jpg} \\[1cm] \huge Exposé}
+	\author{\\Jannis Priesnitz}
+
+	\date{}
+
+%stellt eigene anpassungen f�r \maketitle zur Verf�gung
+\usepackage{titling}
+%eigener untertitel kann auch in die aux Datei
+\newcommand{\subtitle}[1]{%
+	\posttitle{%
+		\par\end{center}
+	\begin{center}\large#1\end{center}
+	\vskip0.5em}%
+}
+	\subtitle{zu meiner Bachelorarbeit\\[0.7cm] \Large   \glqq Verschlüsselung des Controller Area Network mit kryptografischen Mitteln\grqq}
+
+
+
+
+
+
+
+
+%----------------- LAYOUT SETZEN ----------------- %
+%\geometry{left=2cm, right=2cm, top=2.5cm, bottom=2cm}
+
+
+
+
+\begin{document}
+	
+
+
+\include{Deckblatt/h_da_arbeit}
+\include{Kapitel/Einfuehrung}
+
+	
+\end{document}
