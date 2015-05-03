@@ -1,105 +1,69 @@
-\section{Problemstellung}
-Das Controller Area Network (CAN) wird in einer Vielzahl von Systemen, vor allem im Bereich eingebetteter Systeme, eingesetzt. Eine Vielzahl davon enthalten sicherheitskritische Komponenten, deren Ausfall weitreichende Konsequenzen nach sich ziehen sowie Risiken für den Anwender darstellen. Beispiele hierfür sind der Ausfall des Antiblockiersystems während der Autofahrt oder das Einschleusen von Schadsoftware in Kraftwerken oder Fabriken.
- Nach aktuellem Stand der Technik wird das Controller Area Network komplett ohne eine Verschlüsselung der übertragenen Informationen und Authentifikation der Teilnehmer verwendet. Die Sicherheit beruht derzeit ausschließlich auf der Abgeschlossenheit des Systems sowie des meist geheimgehaltenen Softwareprotokolls. 
+\section{Einleitung}
+in meiner Praxispahase...
+\subsection{Motivation}
+meine Praxisphase habe ich gemacht bei conti weil..
 
-Vor allem moderne Autos bieten jedoch die Möglichkeit durch "`Basteleien"' Busteilnehmer auszutauschen und so Schadsoftware in das System gelangen zu lassen. 
+\section{Das Unternehmen}
 
-Des weiteren können Komponenten, die andere Schnittstellen wie z.B. W-Lan besitzen, übernommen werden und so über das CAN\footnote{Da es sich bei CAN um die Abkürzung für Controller Area Network handelt, wird CAN im Folgenden so verwendet.} sicherheitskritische Komponenten infizieren. 
+Die Continental Automitive AG entwickelt und baut am Standort Babenhausen Kombiinstrumente, Head-up Displays (HUDs) und ähnliche informationstechnische Komponenten im Bereich von automotive embedded Systems für zahlreiche Automobilhersteller weltweit. Dabei wird nahezu jedes Bauteil und jede Softwarekomponente  selbst entwickelt und produziert. 
 
-\section{Erkenntnisinteresse}
-Um die Sicherheit von technischen Anlagen und Automobilen, die CAN nutzen, zu gewährleisten, muss darüber nachgedacht werden, wie dies auf einem akzeptablen Niveau geleistet werden kann. Die Idee einer Verschlüsselung wurde bereits durch verschiedene Firmen betrachtet und soll hier aufgenommen und um den Aspekt der Instanzauthentifikation ergänzt werden. Dies ist speziell für Systeme, in denen Komponenten einfach von unautorisierten Menschen ausgetauscht werden können, wie z.B. im Auto, von großer Bedeutung.
-
-Das zu erstellende Konzept zeigt den Aufwand für solch ein Vorhaben auf und gibt eine Einschätzung über deren Machbarkeit. Hierzu werden sowohl gängige kryptografische Mittel von mir ausgewählt, um maximale Sicherheit zu gewährleisten, als auch Messungen an einer exemplarisch ausgewählten Untermenge mit geringerem Sicherheitsniveau (einem Subset an Sicherheit) von mir durchgeführt. 
-
-Meine Aufgabe besteht zusammenfassend darin, die bereits gewonnen Erkenntnisse in dem Bereich der Kryptografie und der Embedded Systems zusammen zu bringen und einen fundiertes Konzept über die Möglichkeiten zu geben. 
-
-\section{Fragestellung}
-Zentrale Fragestellung der Arbeit ist es, ob es effizient möglich ist, \emph{eine} verschlüsselte und authentische Kommunikation in dem CAN durchzuführen. %Fußnote einfügen 
-\newline
-Dies unterteilt sich zunächst prinzipiell in den Aufwand für die Initialisierung der Kommunikation und den zusätzlichen Aufwand für verschlüsselte Kommunikation zur Laufzeit.
-\newline
-Weiter soll die Frage geklärt werden, \emph{welche Mittel} eingesetzt werden müssen, um ein maximales Sicherheitsniveau nach dem Stand der Technik einzusetzen. Hieraus resultiert direkt die Aufgabe, geeignete kryptografische Mittel für die gegebenen Hardwarevoraussetzungen auszuwählen und eine Abschätzung der Performance zu geben.
-\newline
-Die theoretischen Betrachtungen sollen anhand der Frage, \emph{wie performant} ein von mir gewähltes %kann ich das so schreiben?
-und prototypisch implementiertes Subset an Sicherheit sein kann, untermauert werden.
-\newline
-Die Eigenschaften und Vorzüge des Netzwerkes müssen hierbei soweit, wie möglich gewahrt bleiben und Einschränkungen hinsichtlich Kommunikationsteilnehmern sollen genau beschrieben und begründet werden.
-Ferner wird kurz auf die Hardwarevoraussetzungen eingegangen, die ein Kommunikationsteilnehmer mitbringen sollte, um die gewählten Algorithmen durchführen zu können. 
-
-\section{Zielsetzung}
-Es soll gezeigt werden, dass eine verschlüsselte und authentische Kommunikation nach dem Stand der Technik über das CAN grundsätzlich möglich ist. Darüber hinaus soll auf die besonderen Randbedingungen bei einem Einsatz im automotive embedded Umfeld eingegangen werden. Außerdem sollen gängige kryptografische Mittel ausgewählt werden, um dies zu realisieren und deren Wahl kurz begründet werden. 
-An einer prototypischen Implementierung einer Teilmenge sollen Messwerte genommen werden, anhand derer eine differenzierte Aussage über die Realisierbarkeit einer sicheren Kommunikation getroffen werden kann. Aus diesen Ergebnissen wird anhand von Komplexitätsabschätzungen auf die Realisierbarkeit und Performance der maximalen Sicherheit geschlossen. 
-
-\section{Theoriebezug und Modellbildung}
-Die Arbeit basiert auf der Theorie, dass jede Kommunikation durch geeignete Mittel verschlüsselt und authentisch statt finden kann, welche letztendlich auf der mathematischen Gruppentheorie basiert. 
-Es wird ein Modell gebildet, welches die Kommunikation zwischen mehreren Kommunikationspartnern betrachtet und in ähnlicher Weise (in Bezug auf Chipperformance) in aktuellen Systemen, die das CAN-Protokoll nutzen, zum Einsatz kommen könnte. Das Modell ist hinsichtlich Kommunikationsteilnehmern und kryptografischer Sicherheit gegenüber der Realität eingeschränkt.
-Es soll ein Multiproducer - Multiconsumer Modell betrachtet werden, in dem die Kommunikation von einem zentralen Server geregelt wird. 
-Dieser Server verwaltet eine oder mehrere Domains, deren zwei oder mehr Clients angehören. 
-
-
-%\section{Forschungsstand}
-%Sowohl das Feld der Kryptografie, als auch der Entwicklung von Software speziell für eingebettete Systeme waren Gegenstand vieler Forschungen. 
-%Arbeiten beschäftigen sich mit der sicheren Kommunikation über Geräte mit sehr wenig Leistung und über Schnittstellen, die über eine geringe Nutzlast und lange Nachrichtenlaufzeiten verfügen.
+\subsection{Mein Tätigkeitsbereich}
+Meine Praxisphase absolviere ich in der \textbf{Devision "`Interior"'} im \textbf{Bereich "`Instrumentation \& Driver HMI"'}, welcher sich mit der Entwicklung von modernen Kombiinstrumenten, Head-up Displays und Steuerungseinheiten im Cockpit eines Autos beschäftigt.
+\paragraph{Die Einheit "`Core Development Software (CDS)"'} entwickelt eine Basis für die Anwendungsentwicklung durch einheitliche Technologien, Standards und Lösungen, die das Durchführen von Softwareprojekt unter einheitlichen Standards und Prozessen und Plattformen unterstützt. Außerdem werden neue Technologien erforscht und bestehende verbessert.  
+\paragraph{Die Gruppe "`Flash/Bootloader"'} schließlich entwickelt Flashloader Systeme, die für das aufspielen und das starten des Systems verantwortlich sind, sowie Packaging- und Diagnosesysteme in Verbindung mit Flashspeichern. Ziel ist es einen einheitlichen, einfachen und sicheren Flashprozess sowohl in der Fertigung, als auch beim Endkunden zu gewährleisten und Fehlfunktionen schnell zu diagnostizieren, sowie eine lange Lebensdauer der Flashspeicherbausteine zu erreichen.
 
 
 
-\section{Methode}
-Es wird ein Prototyp erstellt, der ein Subset einer sicheren Kommunikation darstellt. Anhand dieser Implementierung werden verschiedene Algorithmen mit unterschiedlichen Randbedingungen getesteten. Aus den Ergebnissen werden Empfehlungen für alternative Algorithmen und Verfahren und eine Abschätzung der Effizienz dieser gegeben. 
+\subsection{Produkte}
+\subsection{Unternehmensbereiche}
+%weitere unterpunkte für CDS Automotive etc. 
+\subsection{organisatorische Einbettung} % klingt scheiße
+% + erklären, warum ich im CDS sitze jedoch nichts mit denen direkt zu tun habe
+\section{Das Projekt}
+CANKrypto blabla
+\subsection{Allgemeine Beschreibung}
+\subsection{Meine Aufgabe} %ggf. redundant
+%\subsection{Hintergrund}
+%muss hier noch nicht unnbeding rein. 
+Meine Aufgabe ist es ein Konzept für eine \textbf{sichere Kommunikation über das Controller Area Network (CAN)} zu erstellen. Dazu soll ein bestehendes CAN-Demoprogramm umfassend umgebaut werden, kryptografische Verfahren und Parameter ausgewählt werden und diese in das CAN-Setup integriert werden. Außerdem soll die Software auf verschiedene Hardwar- und Betriebssystemen integriert und umfassende Performancetests durchgeführt werden. 
 
-%\section{Materialübersicht}
-%TBC
-\section{Vorläufige Gliederung}
-Nach aktuellem Erkenntnissen gestaltet sich eine Gliederung folgendermaßen:
-\begin{enumerate}
-	\item Einleitung / Hintergrund
-
-	\item  Aufgabenstellung
-	\subitem   Authentische Kommunikation
-	\subitem  Verschlüsselte Kommunikation
-	
-	\item  Randbedingungen der Automotive Embedded Welt und von CAN
-	\subitem  Rechenleistung 
-	\subitem  Speicherverwaltung
-	\subitem  Betrachtungen zu Multithreadingeigenschaften
-	\subitem  Ausfallsicherheit
-
-	\item  Konkretes Design der prototypischen Implementierung
-	\subitem  Authentisierung
-	\subitem  Schlüsseltausch
-	\subitem  Verschlüsselung 
-
-	\item Performancemessungen
-	\subitem  Setup Zeit
-	\subitem  Lauftzeit einer Nachricht
-	\subitem  Speicher
-	
-	\item Kryptografisches System mit maximaler Sicherheit
-	\subitem Vorstellung des Systems
-	\subitem Abschätzung der Realisierbarkeit aufgrund der Messungen am Prototyp
-	\item  Fazit und Ausblick
-
-	\end{enumerate}
+\subsection{Ziele}
+Ziel des Konzeptes ist es die Machbarkeit der sicheren Kommunikation über das CAN Protokoll zu beurteilen. Dazu sollen kryptografische Mittel nach aktuellem Stand der Technik ausgewählt und ein Vorschlag für ein Kommunikationsprotokoll gemacht werden, das eine für die Anwendungsschicht transparente Kommunikation gewährleistet. Die gewählten Ansätze sollen in Software umgesetzt werden und hinsichtlich Performance, Speicherverbrauch und Portabilität geprüft werden. 
 
 
-\section{Literaturverzeichnis}
-Die bis jetzt von mir recherchierten,  zentralen Quellen sind im Folgenden angegeben. Weitere Quellen sind noch zu beschaffen. 
-\nocite{*}
-\bibliographystyle{plain}
-\bibliography{Literatur/Literaturverzeichnis}
-
-\section{Zeitplan}
+\subsection{Eingesetzte Technologien}
+C 
+Visuual Studio 
+CrypoPP, CryptLib, OpenSSL
 
 
-\begin{tabular}{|p{5cm}|p{9cm}|}
-	\hline 24.04.2015 & Anmeldugn zu Bachelorarbeit \\ 
-	\hline \today & Abgabe des Exposès \\ 
-	\hline \today - 15.05.2015 & Fertigstellung des Prototypen (und ende Praxisphase) \\ 
-	\hline 15.05.2015 - 07.06.2015 & Messungen am Prototyp und Auswertung \\ 
-	\hline 07.06.2015 - 14.06.2015 & Design eines Systems mit maximaler Soicherheit \\ 
-	\hline 15.06.2015 - 29.06.2015 & Betrachtungen zu den Verausetzungen für einzusetztende Systeme \\ 
-	\hline 29.06.2015 - 17.07.2015 & Schlussfolgerung der Performance des Prototype auf das System maximalere SIcherheit \\ 
-	\hline 18.07.2015 - 23.07.2015 & Korrektur und Verbesserungen \\ 
-	\hline 24.07.2015 & Abgabe der Bachelorarbeit \\ 
+\subsection{Anforderungen}
+%M-N Kommunikation
+%authentisch
+\subsection{Konzepte und Lösungsansätze}
+wurden komplett von mir entwickelt
 
-	\hline 
-\end{tabular} 
+\subsection{Aktueller Stand} % was wurde realisiert?
+Prototyp 
+Messungen
+\subsection{Bewertung des Ergebnisses} 
+%ggf. redundant zu unten
+
+- Viel geschafft 
+viel muss noch getan werden
+\subsection{Ausblick}
+Auch wenn dies ein Abschlussbericht ist, möchte ich kurz auf meine weiteren Tätigkeiten im Rahmen der noch verbleibenden Zeit in der Praxisphase geben. Außerdem möchte ich noch kurz einen generellen Ausblick zu der von mir bearbeiteten Thematik geben. 
+
+\section{Evaluation der Praxisphase}
+\subsection{Das Unternehmen}
+\subsection{Lessons Learned}
+Crypto API schneller wählen+
+direkt c entwickeln
+\subsection{Persöhnliche Einschätzung des Lernerfolgs}
+
+%Abkürzungsverzeichnis brauche ich wohl nicht 
+
+% Glossar 
+
+%Quellennachweis / Literaturverzeichnis
+% kann aus dem Expose genommen und leicht angepasst werden 
