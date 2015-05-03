@@ -2,23 +2,31 @@
 \contentsline {section}{\numberline {1}Einleitung}{3}{section.1}
 \contentsline {subsection}{\numberline {1.1}Motivation}{3}{subsection.1.1}
 \contentsline {section}{\numberline {2}Das Unternehmen}{3}{section.2}
-\contentsline {subsection}{\numberline {2.1}Mein T\IeC {\"a}tigkeitsbereich}{3}{subsection.2.1}
-\contentsline {paragraph}{Die Einheit "`Core Development Software (CDS)"'}{3}{section*.2}
-\contentsline {paragraph}{Die Gruppe "`Flash/Bootloader"'}{3}{section*.3}
-\contentsline {subsection}{\numberline {2.2}Produkte}{4}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Unternehmensbereiche}{4}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}organisatorische Einbettung}{4}{subsection.2.4}
-\contentsline {section}{\numberline {3}Das Projekt}{4}{section.3}
-\contentsline {subsection}{\numberline {3.1}Allgemeine Beschreibung}{4}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Meine Aufgabe}{4}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Ziele}{4}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Eingesetzte Technologien}{5}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Anforderungen}{5}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Konzepte und L\IeC {\"o}sungsans\IeC {\"a}tze}{5}{subsection.3.6}
-\contentsline {subsection}{\numberline {3.7}Aktueller Stand}{5}{subsection.3.7}
-\contentsline {subsection}{\numberline {3.8}Bewertung des Ergebnisses}{5}{subsection.3.8}
-\contentsline {subsection}{\numberline {3.9}Ausblick}{5}{subsection.3.9}
-\contentsline {section}{\numberline {4}Evaluation der Praxisphase}{5}{section.4}
-\contentsline {subsection}{\numberline {4.1}Das Unternehmen}{5}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Lessons Learned}{5}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Pers\IeC {\"o}hnliche Einsch\IeC {\"a}tzung des Lernerfolgs}{5}{subsection.4.3}
+\contentsline {subsection}{\numberline {2.1}Unternehmensbereiche (Divisionen)}{3}{subsection.2.1}
+\contentsline {paragraph}{Chassis \& Safety}{3}{section*.2}
+\contentsline {paragraph}{Powertrain}{3}{section*.3}
+\contentsline {paragraph}{Tires}{3}{section*.4}
+\contentsline {paragraph}{ContiTech}{4}{section*.5}
+\contentsline {paragraph}{Interior}{4}{section*.6}
+\contentsline {subsection}{\numberline {2.2}Gesch\IeC {\"a}fteinheit Instrumentation and HMI}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Bereich Core Development Software}{4}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}CDS Gruppe Flashbootloader}{5}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Produkte}{5}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Mein T\IeC {\"a}tigkeitsbereich}{5}{subsection.2.6}
+\contentsline {paragraph}{Die Einheit "`Core Development Software (CDS)"'}{5}{section*.7}
+\contentsline {paragraph}{Die Gruppe "`Flash/Bootloader"'}{6}{section*.8}
+\contentsline {subsection}{\numberline {2.7}organisatorische Einbettung}{6}{subsection.2.7}
+\contentsline {section}{\numberline {3}Das Projekt}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Allgemeine Beschreibung}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Meine Aufgabe}{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Ziele}{6}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Eingesetzte Technologien}{7}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Anforderungen}{7}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Konzepte und L\IeC {\"o}sungsans\IeC {\"a}tze}{7}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Aktueller Stand}{7}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}Bewertung des Ergebnisses}{7}{subsection.3.8}
+\contentsline {subsection}{\numberline {3.9}Ausblick}{7}{subsection.3.9}
+\contentsline {section}{\numberline {4}Evaluation der Praxisphase}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}Das Unternehmen}{7}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Lessons Learned}{7}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Pers\IeC {\"o}hnliche Einsch\IeC {\"a}tzung des Lernerfolgs}{8}{subsection.4.3}
