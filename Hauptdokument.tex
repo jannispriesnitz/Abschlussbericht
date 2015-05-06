@@ -37,14 +37,32 @@
 \usepackage[nottoc]{tocbibind}
 
 
+% Service for todonotes
+%\usepackage{lipsum}                     % Dummytext
+\usepackage{xargs}                      % Use more than one optional parameter in a new commands
+\usepackage[pdftex,dvipsnames]{xcolor}  % Coloured text etc.
+%Package todonotes
+
+%NOTE: um alle Notizen unsichtbar zu machen als Parameter disable einfügen
+\usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
+\newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
+\newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
+\newcommandx{\info}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
+\newcommandx{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
+\newcommandx{\thiswillnotshow}[2][1=]{\todo[disable,#1]{#2}}
+
+\todo[disable]
 
 % für Listings
 \usepackage{listings}
 \lstset{numbers=left, numberstyle=\tiny, numbersep=5pt, stepnumber=4, keywordstyle=\color{black}\bfseries\itshape, stringstyle=\ttfamily,showstringspaces=false,basicstyle=\footnotesize,captionpos=b}
 % Trick zum leichten einbingen des Logos in den Titel 
 \lstset{language=java}
-	\title{\includegraphics[width = 0.6\textwidth]{Abb/logo_fbi.jpg} \\[1cm] \huge Exposé}
-	\author{\\Jannis Priesnitz}
+	\title{\includegraphics[width = 0.6\textwidth]{Abb/logo_fbi.jpg} \\[1cm] \huge 
+	% HIER TITEl
+		Bericht zu meiner Praxisphase
+		}
+	\author{\\ vorgelegt von: \\[5mm]Jannis Priesnitz, 729341}
 
 	\date{}
 
@@ -57,7 +75,7 @@
 	\begin{center}\large#1\end{center}
 	\vskip0.5em}%
 }
-	\subtitle{zu meiner Bachelorarbeit\\[0.7cm] \Large   \glqq Verschlüsselung des Controller Area Network mit kryptografischen Mitteln\grqq}
+	\subtitle{im Rahmen des Informatikstudiums an der Hochschule Darmstadt}
 
 
 
@@ -70,14 +88,26 @@
 %\geometry{left=2cm, right=2cm, top=2.5cm, bottom=2cm}
 
 
+% eigene Anpassungen im Skript
 
+\setlength{\skip\footins}{10mm} %setzt den Abstand zwischen Text und Fußnote
 
 \begin{document}
 	
 
 
 \include{Deckblatt/h_da_arbeit}
+\include{Kapitel/Eigenstaendigkeitserklaerung}
+\newpage		
+\tableofcontents
+
 \include{Kapitel/Einfuehrung}
 
+
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{Literatur/Literaturverzeichnis}
+
+\listoftodos
 	
 \end{document}

@@ -1,0 +1,41 @@
+\begin{thebibliography}{1}
+
+\bibitem{canstandart2.0b}
+{\em CAN Specification Version 2.0}.
+
+\bibitem{etschberger2001controller}
+Konrad Etschberger.
+\newblock Controller area network: basics, protocols, chips and applications.
+\newblock 2001.
+
+\bibitem{hanser2014autosar}
+Armin Happel.
+\newblock Verschlüsselte signalübertragung mit autorsar in einem
+  can-fd-netzwerk.
+\newblock 2014.
+
+\bibitem{pub2001197}
+NIST~FIPS Pub.
+\newblock 197: Advanced encryption standard (aes).
+\newblock {\em Federal Information Processing Standards Publication},
+  197:441--0311, 2001.
+
+\bibitem{viega2002network}
+John Viega, Matt Messier, and Pravir Chandra.
+\newblock {\em Network Security with OpenSSL: Cryptography for Secure
+  Communications}.
+\newblock " O'Reilly Media, Inc.", 2002.
+
+\bibitem{werners2007management}
+Brigitte Werners and Phillip Klempt.
+\newblock Management von it-risiken in supply chains.
+\newblock {\em Risikomanagement in Supply Chains--Gefahren abwehren, Chancen
+  nutzen, Erfolg generieren, Berlin}, 2007.
+
+\bibitem{wietzke2006automotive}
+Joachim Wietzke and Manh~Tien Tran.
+\newblock {\em Automotive Embedded Systeme: Effizfientes Framework-Vom Design
+  zur Implementierung}.
+\newblock Springer-Verlag, 2006.
+
+\end{thebibliography}

@@ -1,29 +1,57 @@
 \select@language {ngerman}
-\contentsline {section}{\numberline {1}Einleitung}{3}{section.1}
-\contentsline {subsection}{\numberline {1.1}Motivation}{3}{subsection.1.1}
-\contentsline {section}{\numberline {2}Das Unternehmen}{3}{section.2}
-\contentsline {subsection}{\numberline {2.1}\IeC {\"U}berblick}{3}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Unternehmensbereiche (Divisionen)}{3}{subsection.2.2}
-\contentsline {paragraph}{Chassis \& Safety}{3}{section*.2}
-\contentsline {paragraph}{Powertrain}{3}{section*.3}
-\contentsline {paragraph}{Tires}{4}{section*.4}
-\contentsline {paragraph}{ContiTech}{4}{section*.5}
-\contentsline {paragraph}{Interior}{4}{section*.6}
-\contentsline {subsubsection}{\numberline {2.2.1}Bereich Core Development Software}{4}{subsubsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2}CDS Gruppe Flashbootloader}{5}{subsubsection.2.2.2}
-\contentsline {subsection}{\numberline {2.3}Produkte}{5}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Meine Praxisstelle - organisatorische Einbettung}{5}{subsection.2.4}
-\contentsline {section}{\numberline {3}Das Projekt}{5}{section.3}
-\contentsline {subsection}{\numberline {3.1}Allgemeine Beschreibung}{6}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Meine Aufgabe}{6}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Ziele}{6}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Eingesetzte Technologien}{7}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Anforderungen}{7}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Konzepte und L\IeC {\"o}sungsans\IeC {\"a}tze}{7}{subsection.3.6}
-\contentsline {subsection}{\numberline {3.7}Aktueller Stand}{7}{subsection.3.7}
-\contentsline {subsection}{\numberline {3.8}Bewertung des Ergebnisses}{7}{subsection.3.8}
-\contentsline {subsection}{\numberline {3.9}Ausblick}{7}{subsection.3.9}
-\contentsline {section}{\numberline {4}Evaluation der Praxisphase}{7}{section.4}
-\contentsline {subsection}{\numberline {4.1}Das Unternehmen}{7}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Lessons Learned}{7}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Pers\IeC {\"o}hnliche Einsch\IeC {\"a}tzung des Lernerfolgs}{7}{subsection.4.3}
+\contentsline {section}{\numberline {1}Einleitung und Motivation}{5}{section.1}
+\contentsline {section}{\numberline {2}Das Unternehmen}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}\IeC {\"U}berblick}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Unternehmensbereiche (Divisionen)}{5}{subsection.2.2}
+\contentsline {paragraph}{Chassis \& Safety}{6}{section*.3}
+\contentsline {paragraph}{Powertrain}{6}{section*.4}
+\contentsline {paragraph}{Tires}{6}{section*.5}
+\contentsline {paragraph}{ContiTech}{6}{section*.6}
+\contentsline {paragraph}{Interior}{6}{section*.7}
+\contentsline {subsubsection}{\numberline {2.2.1}Gesch\IeC {\"a}fteinheit Instrumentation and Driver HMI}{6}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Bereich Core Development Software}{7}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}CDS Gruppe Flashbootloader}{7}{subsubsection.2.2.3}
+\contentsline {subsection}{\numberline {2.3}Produkte}{7}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Meine Praxisstelle - organisatorische Einbettung}{8}{subsection.2.4}
+\contentsline {section}{\numberline {3}Das Projekt}{8}{section.3}
+\contentsline {subsection}{\numberline {3.1}Allgemeine Beschreibung}{8}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Meine Aufgabe}{9}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Ziele}{10}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Eingesetzte Technologien}{10}{subsection.3.4}
+\contentsline {paragraph}{Netzwerk}{10}{section*.11}
+\contentsline {paragraph}{Testdevice}{10}{section*.13}
+\contentsline {paragraph}{Betriebssystem}{10}{section*.14}
+\contentsline {paragraph}{Treiber}{11}{section*.15}
+\contentsline {paragraph}{Programmiersprachen}{11}{section*.16}
+\contentsline {paragraph}{Entwicklungswerkzeuge}{11}{section*.17}
+\contentsline {subparagraph}{Visual Studio}{11}{section*.18}
+\contentsline {subparagraph}{Netbeans}{11}{section*.19}
+\contentsline {subparagraph}{Enterprise Architect}{11}{section*.21}
+\contentsline {paragraph}{Maketools und Compiler}{12}{section*.22}
+\contentsline {subparagraph}{Visual Studio Compiler}{12}{section*.23}
+\contentsline {subparagraph}{GCC, mingw, make}{12}{section*.24}
+\contentsline {paragraph}{Kryptografische Bibliotheken}{12}{section*.25}
+\contentsline {subparagraph}{CryptoPP}{12}{section*.26}
+\contentsline {subparagraph}{CryptLib}{12}{section*.27}
+\contentsline {subparagraph}{Hausinterne Bibliotheken}{12}{section*.28}
+\contentsline {subparagraph}{OpenSSL}{13}{section*.29}
+\contentsline {subsection}{\numberline {3.5}Anforderungen}{13}{subsection.3.5}
+\contentsline {paragraph}{Funktionale Anforderungen}{13}{section*.30}
+\contentsline {paragraph}{Nichtfunktionale Anforderungen}{13}{section*.31}
+\contentsline {subsection}{\numberline {3.6}Konzepte und L\IeC {\"o}sungsans\IeC {\"a}tze}{14}{subsection.3.6}
+\contentsline {subsubsection}{\numberline {3.6.1}Kommunikationsprotokoll}{14}{subsubsection.3.6.1}
+\contentsline {paragraph}{Pr\IeC {\"a}fixprotokoll}{14}{section*.32}
+\contentsline {paragraph}{Streamprotokoll}{15}{section*.33}
+\contentsline {subsubsection}{\numberline {3.6.2}Dom\IeC {\"a}nprinzip}{15}{subsubsection.3.6.2}
+\contentsline {subsubsection}{\numberline {3.6.3}Authentifizierung}{15}{subsubsection.3.6.3}
+\contentsline {subsubsection}{\numberline {3.6.4}Verschl\IeC {\"u}sselung}{16}{subsubsection.3.6.4}
+\contentsline {subsubsection}{\numberline {3.6.5}Messungen}{16}{subsubsection.3.6.5}
+\contentsline {subsection}{\numberline {3.7}Aktueller Stand}{16}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}Bewertung des Ergebnisses}{17}{subsection.3.8}
+\contentsline {subsection}{\numberline {3.9}Ausblick}{18}{subsection.3.9}
+\contentsline {section}{\numberline {4}Evaluation der Praxisphase}{18}{section.4}
+\contentsline {subsection}{\numberline {4.1}Die Aufgabe}{18}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Das Unternehmen als Praxisstelle}{19}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Lessons Learned}{19}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Pers\IeC {\"o}nliche Einsch\IeC {\"a}tzung des Lernerfolgs}{20}{subsection.4.4}
+\contentsline {section}{Literatur}{21}{section*.38}
